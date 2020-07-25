@@ -1,0 +1,249 @@
+
+/**** start main rules ****/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.container {
+    width: 1170px;
+    margin: auto;
+}
+/**** end main rules *****/
+
+/**** start header setting ***/
+header .box {
+    width: 100%;
+    height: 667px;
+    background-image: url('/Images/spaces.jpeg');
+    background-size: cover;
+}
+
+header .box nav {
+    width: 100%;
+    overflow: hidden;
+}
+
+header .box nav h1 {
+    width: 70%;
+    float: left;
+    color: #FFF;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+header .box nav ul {
+    width: 30%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+header .box nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header .box nav ul li a {
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+header .box nav ul li a:hover {
+    color: crimson;
+}
+
+header .box .title {
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+header .box .title h2 {
+    color: rgb(196, 194, 194);
+    font-size: 50px;
+}
+
+header .box .title p {
+    color: rgb(196, 194, 194);
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+@media (max-width : 767px){
+    .container {
+        width: 767px;
+        margin: auto;
+    }
+    
+}
+/***** end header setting ****/
+
+/*** start info section ****/
+section .divGroups {
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial, tahoma, sans-serif;
+    line-height: 1.4;
+}
+
+section .divGroups .div1 {
+    width: 33%;
+    float: left;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-right: 1px solid rgb(184, 184, 184);
+}
+
+section .divGroups .div1:last-child {
+    border-right: none;
+}
+
+section .divGroups .div1 h2 {
+    color: rgb(58, 83, 155);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+section .divGroups .div1 p {
+    color: rgb(156, 155, 155);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+section .divGroups .div1 button {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(58, 83, 155);
+    border-radius: 5px;
+    border: 1px solid rgb(58, 83, 155);
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+}
+/**** end info section ***/
+
+/**** start about us section ***/
+.sec {
+    background-color:  rgb(58, 83, 155);
+    margin-top: 60px;
+}
+.sec .authers {
+    width: 100%;
+    overflow: hidden;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.sec .authers h3:first-child {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    opacity: 0.6;
+    font-weight: normal;
+
+}
+
+.sec .authers p{
+    margin-bottom: 40px;
+    color: rgb(241, 241, 241);
+    font-weight: normal;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.sec .authers .div1 {
+    width: 22%;
+    height: 300px;
+    float: left;
+    border: 1px solid rgb(96, 129, 226);
+    margin: 10px;
+    background-color: rgb(58, 83, 155);
+    border-radius: 6px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.sec .authers .div1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.sec .authers .div1 h3 {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.sec .authers .div1 span {
+    color: #DDD;
+    font-size: 15px;
+}
+/*** end about us section ***/
+
+/*** start our works ***/
+
+section .works {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 60px;
+    text-align: center;
+}
+
+section .works h3:first-child {
+    font-size: 40px;
+    color: #DDD;
+    margin-bottom: 50px;
+}
+
+
+section .works .div1 {
+    width: 50%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+section .works .div1 img {
+    width: 100%;
+}
+
+section .works .div1 h3 {
+    color: rgb(96, 129, 226);
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+
+section .works .div1 p {
+    color: rgb(192, 190, 190);
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+section .works .div1 button {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(58, 83, 155);
+    border-radius: 5px;
+    border: 1px solid rgb(58, 83, 155);
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+/*** end our works ****/
+
+/*** start our works ****/
+
+/*** end our works ****/
